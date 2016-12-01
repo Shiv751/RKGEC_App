@@ -1,0 +1,65 @@
+.footercolor{ 
+	margin-top: 10px; 
+	background-color:graytext;
+	background-size: cover;
+	background-attachment:fixed;
+	width: 100%;
+      height: 56%;		
+} 
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+ 
+
+
+.CustomDiv{
+	margin-bottom:3px;
+	min-height:300;
+	background-color:silver;
+	text-align:center;
+	font-size:large;
+}
+
+.SidebarContent{
+	margin-bottom:10px;
+	min-height:150;
+	background-color:silver;
+	text-align:center;
+	font-size:large;
+}
+
+.mainContent{
+	margin-bottom:10px;
+	min-height:310;
+	background-color:silver;
+	text-align:center;
+	font-size:large;
+}
+#body {
+    margin-top: 50px; 
+	background-color:silver;
+		background-size: cover;
+	background-attachment:fixed;
+	min-height:640px;
+}
+
+
+#full {
+    background-image:url(../image/back.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	min-height:640px;
+		
+}
