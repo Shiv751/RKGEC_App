@@ -1,225 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
 <title>Raj Kumar Goel Engineering College</title>
+<link rel="icon" type="image/png" href="image/fevicon.png" />
 
+<link rel='stylesheet prefetch'
+	href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="css/style.css">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="tutorial/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="tutorial/font-awesome/css/font-awesome.min.css">
 <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 <link href="css/cover.css" rel="stylesheet">
 <link href="css/carausel.css" rel="stylesheet">
 <link href="css/CustomStyle.css" rel="stylesheet">
 <script src="boostrap/js/ie-emulation-modes-warning.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	   <style>
-	     .carousel-inner > .item > img,
-	     .carousel-inner > .item > a > img {
-	       width: auto;
-	       height:400px; 
-	       
-	       }
-	   </style>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+	height: 400px;
+}
+
+img {
+	width: 100%;
+	height: 20%;
+}
+
+body {
+	background-color: black;
+}
+
+a:hover, a:active {
+	border-bottom: 3px solid red;
+	text-decoration: none;
+	color: blue;
+}
+
+.img-responsive {
+	max-width: 90%; /* or to whatever you want here */
+	max-height: auto; /* or to whatever you want here */
+}
+</style>
 
 </head>
 
-<body>	
- <nav class="navbar navbar-inverse "> 
-  <div class="container-fluid">
-    <div class="navbar-header">
-	  <button type="button" class="navbar-toggle" id="menu1" data-toggle="collapse" data-target="#myNavbar">
-	    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-        
-      </button>
-      <a class="navbar-brand" href="#">RKGEC</a>
-    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
-         <ul class="nav navbar-nav navbar-right">
-         
-         <li ><a href="imagegallry.html">IMAGES</a></li>
-	     <li><a href="company.html">PLACEMENT</a></li>
-	     <li> <a href="login.jsp">SIGN IN</a></li>
-	      </li>
-	      <li><a href="#">FACULTY</a></li>
-	     <li><a href="#">LIFE@RKGEC</a></li>
-	     <li><a href="#">DEPARTMENT</a></li>
-	     <li><a href="#">ACTIVITIES</a></li>
-         </ul>
-	   </div>
-	
-  </div>
-</nav>
+<body>
+	<div>
+		<img alt="RKGEC" src="image/rkgecName.png" class="img-responsive">
+	</div>
 
- <marquee><a href="form.jsp"><strong>Acelerar Technologies Pvt. Ltd. Recruitment drive on 29 November</strong></a></marquee>
-  <div id="myCarousel" class="carousel slide" data-interval="1000" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel1" data-slide-to="1" ></li>
-      <li data-target="#myCarousel2" data-slide-to="2"></li>
-      <li data-target="#myCarousel3" data-slide-to="3"></li>
-      <li data-target="#myCarousel4" data-slide-to="4"></li>
-      <li data-target="#myCarousel5" data-slide-to="5"></li>
-      <li data-target="#myCarousel6" data-slide-to="6"></li>
-      <li data-target="#myCarousel7" data-slide-to="7"></li>
-    </ol>
+	<nav class="navbar navbar-light bg-primary">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" id="menu1"
+					data-toggle="collapse" data-target="#myNavbar">
+					<span class="sr-only">Toggle navigation</span> Menu <i
+						class="fa fa-bars"></i>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="">
-      <div class="item active">
-        <img src="image/frontrkgec.jpg" alt="Rkgec">
-        <div class="carousel-caption"><h3>Dr. S.K.Gaur</h3>
-		   <p>Director of rkgec</p>
-         </div>		   
-	  </div>
+				</button>
 
-      <div class="item">
-        <img src="image/download.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Dr.S.K Gaur</h3>
-		   <p>Director of rkgec</p>
-         </div>	
-      </div>
-    
-      <div class="item">
-        <img src="image/download1.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Prof.V.K Gupta</h3>
-		   <p>Advisor of rkgec</p>
-         </div>	
-      </div>
+				<h3>RKGEC</h3>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
 
-      <div class="item">
-        <img src="image/download2.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Guest</h3>
-		   <p>Seminar in rkgec</p>
-         </div>	
-      </div>
-      <div class="item">
-        <img src="image/download3.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Guest</h3>
-		   <p>Seminar in rkgec</p>
-         </div>	
-      </div>
-      <div class="item">
-        <img src="image/download4.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Guest</h3>
-		   <p>Seminar in rkgec</p>
-         </div>	
-      </div>
-      <div class="item">
-        <img src="image/download5.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Guest</h3>
-		   <p>Seminar in rkgec</p>
-         </div>	
-      </div>
-      <div class="item">
-        <img src="image/download6.jpg" alt="Rkgec">
-         <div class="carousel-caption"><h3>Guest</h3>
-		   <p>Seminar in rkgec</p>
-         </div>	
-      </div>
-    
+					<li><a href="#goImage">IMAGES</a></li>
+					<li><a href="company.html">PLACEMENT</a></li>
+					<li><a href="login.jsp">SIGN IN</a></li>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel7" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
- <div class="container text-center">
-     <h3>RKGEC</h3>
-     <p><em>We love Reading!</em></p>
-     <p>We have created a fictional band website.</p>
-     <br>
-      <div class="row">
-        <div class="col-sm-4">
-		 <p><strong>S.K.GAUR</strong></p><br>
-			<a href="#demo" data-toggle="collapse">
-			<img src="image/director1.jpg " class="img-rounded person" class="reaponsive" width="255" height="255">
+					<li><a href="feculty.html">FACULTY</a></li>
+					<li><a href="#acchive">ARCHIVES</a></li>
+					<li><a href="feculty.html">DEPARTMENT</a></li>
+					<li><a href="#pleaseContact">Contact Us</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<marquee  scrollamount="12">
+		<a href="https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx" target="_blank" ><strong style="color:red">B. Tech. 5th & 7th Semester, B. Pharma 5th & 7th Semester, MCA 3rd & 5th Semester & BHMCT 3rd, 5th & 7th Semester Result
+		</strong></a>
+		&ensp; &ensp; &ensp; &ensp; &ensp;&ensp;&ensp;&ensp; 
+				<a href="http://117.55.241.6/library/questionpapers/" target="_blank"  ><strong>Question
+					Papers Of University's Previous Exams </strong></a>
+			
+	</marquee>
+
+	<div id="myCarousel1" class="carousel slide" data-interval="3000"
+		data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel1" data-slide-to="1"></li>
+			<li data-target="#myCarousel1" data-slide-to="2"></li>
+			<li data-target="#myCarousel1" data-slide-to="3"></li>
+			<li data-target="#myCarousel1" data-slide-to="4"></li>
+			<li data-target="#myCarousel1" data-slide-to="5"></li>
+			<li data-target="#myCarousel1" data-slide-to="6"></li>
+			<li data-target="#myCarousel1" data-slide-to="7"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="">
+			<div class="item active">
+				<img src="image/c0.jpg" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Dr. S.K.Gaur</h3>
+					<p>Director of rkgec</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="image/c3.jpg" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Dr.S.K Gaur</h3>
+					<p>Director of rkgec</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="image/c6.jpg" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Prof.V.K Gupta</h3>
+					<p>Advisor of rkgec</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="image/c7.png" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Guest</h3>
+					<p>Seminar in rkgec</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/c4.jpg" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Guest</h3>
+					<p>Seminar in rkgec</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/cc.png" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Guest</h3>
+					<p>Seminar in rkgec</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/c6.jpg" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Guest</h3>
+					<p>Seminar in rkgec</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/c7.png" alt="Rkgec">
+				<div class="carousel-caption">
+					<h3>Guest</h3>
+					<p>Seminar in rkgec</p>
+				</div>
+			</div>
+
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel1" role="button"
+				data-slide="prev"> <span
+				class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a> <a class="right carousel-control" href="#myCarousel1" role="button"
+				data-slide="next"> <span
+				class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
 			</a>
-			<div id="demo" class="collapse">
-			<p>It is my privilege and matter of pride to introduce a great vibrant campus of RAJ KUMAR GOEL ENGINEERING COLLEGE, Pilkhuwa popularly known as RKGEC to the stakeholders of this college, especially the students aspiring to be technocrats and managers of the future years.
-			 </p>
-            </div>
-        </div>
-		
-        <div class="col-sm-4">
-		 <p><strong>AKHILESH SIR</strong></p><br>
-        <a href="#demo1" data-toggle="collapse">        
-		<img src="image/director2.jpg " class="img-rounded person" class="reaponsive" width="255" height="255">
-         </a>
-		 <div id="demo1" class="collapse" >
-		 <p>Java Expert </p>
-		 </div>
-       </div>
-	   
-        <div class="col-sm-4">
-		 <p><strong>Saurabh Agrawal</strong></p><br>
-		 <a href="#demo2" data-toggle="collapse">
-         <img src="campus/1.jpg " class="img-rounded person" class="reaponsive" width="255" height="255">
-		 </a>
-		 <div id="demo2" class="collapse">
-          <p>HOD Computer Science and Engineering </p>
-          </div>
-       </div>
-    </div>
-</div>
-      <div class="container footercolor">
-	    <div class="row "><hr>
-		 <div class="col-md-4 col-lg-4">  
-		 
-          <a href="#">About RKGEC</a></br>
-		  <a href="http://aktu.ac.in/">APJAKTU (UPTU)</a><br>
-		    <a href="http://www.aicte-india.org/">AICTE</a></br>
-		    <a href="#">Mandatory Disclosure</a></br>
-		     <a href="#">e-Journals	</a></br>
-		      <a href="#">e-Books</a></br>
-		       <a href="#">Old Semester Questation Papers</a></br>
-		      <a href="#">Patenting in India by Dr. Laxman Prasad</a></br>
-		        <a href="#">Machine Design Notes and problem by </a></br>
-		        <a href="#">Prof. B. K. Gupta</a>
-		 </div>
-		  <div class="col-md-4 col-lg-4">	
-		 <a href="#">Anti Ranging</a>
-		     <a href="#">CRC</a>
-		      <a></a><br/>
-		  <a href="#"> Placement Statistics</a><br/>
-		  <a href="#">Training Partners	</a><br/>
-		  <a href="#">RKGEC Media</a><br/>
-		  <a href="#">Jobs @ RKGEC</a><br/>
-		  <a href="#">Alumni Speaks</a><br/>
-		  <a href="#">Fee Structure</a><br/>
-		  <a href="#">ERP Login</a><br/>
-		  <a href="#"></a><br/>
-		 
-		 
-		 </div>
-		  <div class=" col-md-4 col-lg-4">
-		 <p>Raj Kumar Goel Engineering College</p><br>
-		  <p >40th KM Stone, NH -24, Delhi - Hapur Road,</p><br>
-		   <p>Pilkhuwa, Hapur (Formaly Ghaziabad) - 245304 (U.P.)</p><br>		
-		   <p>Contact No : 0122-2321964, 2324554, Fax : 0122-2324544</p> 
-		   <p>E-mail : contact@rkgec.edu.in</p>
-		 </div>
-	  <div> 
-	  
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container" id="acchive">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#">Student Corner</a>
+			</div>
+			<div class="col-md-4">
+				<span>Library</span>
+			</div>
+			
+		</div>
+		<div class="container">
+			<div class="row">
+				<h3>RKGEC</h3>
+				<p>
+					<em>We love Reading!</em>
+				</p>
+				<p>We have created a fictional band website.</p>
+				<br>
+			</div>
 
-      <footer>
-        <p>MADE BY-HARVANSH & SHIVAM </p>
-      </footer>
-   
+			<div class="row">
+				<div class="col-sm-4">
+				<p>
+						<strong>PAWAN SIR</strong>
+					</p>
+					<br> <a href="#demo" data-toggle="collapse"> <img
+						src="image/akhileshSir.jpg" class="img-rounded person"
+						class="img-reaponsive" class="teacher">
+					</a>
+					<div id="demo" class="collapse">
+						<p>It is my privilege and matter of pride to introduce a great
+							vibrant campus of RAJ KUMAR GOEL ENGINEERING COLLEGE, Pilkhuwa
+							popularly known as RKGEC to the stakeholders of this college,
+							especially the students aspiring to be technocrats and managers
+							of the future years.</p>
+					</div>
+				</div>
 
-	<script	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="bootstrap/js/vendor/jquery.min.js"><\/script>')</script>
+				<div class="col-sm-4">
+					<p>
+						<strong>AKHILESH SIR</strong>
+					</p>
+					<br> <a href="#demo1" data-toggle="collapse"> <img
+						src="image/akhileshSir.jpg " class="teacher" class="img-rounded person"
+						class="img-reaponsive" >
+					</a>
+					<div id="demo1" class="collapse">
+						<p>Java Expert</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4" >
+					<p>
+						<strong>Saurabh Agrawal</strong>
+					</p>
+					<br> <a href="#demo2" data-toggle="collapse" class="teacher"> <img
+						src="image/shaurabhSir.jpg" class="img-rounded person" class="img-reaponsive"
+						>
+					</a>
+					<div id="demo2" class="collapse">
+						<p>HOD Computer Science and Engineering</p>
+					</div>
+				</div>
+			</div>
+		</div>
+<div class="row" id="goImage">
+		<div class="col-lg-12">
+			<h3>Image Gallry Of RKGEC</h3>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<a href="campus/2.jpg" class="thumbnail"> <img
+					src="republic-day/republic-day (7).jpg " class="reaponsive">
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<a href="campus/3.jpg" class="thumbnail"> <img
+					src="campus/3.jpg " class="reaponsive">
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<a href="campus/4.jpg" class="thumbnail"> <img
+					src="campus/4.jpg " class="reaponsive">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row"><a href="imagegallry.html"><h1>More Images&gt&gt</h1></a></div>
+
+
+		<div>
+			<h1 style="text-align: left">Feel free to contact us...</h1>
+		</div>
+		<div class="container pull-left conpage" id="pleaseContact">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="well well-sm">
+						<form>
+							<div class="row" style="background-color: #AAC1C1">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="name"> Name</label> <input type="text"
+											class="form-control" id="name" placeholder="Enter name"
+											pattern="[A-Z a-z]" title="Enter UserName use alphabetes only" />
+									</div>
+									<div class="form-group">
+										<label for="email"> Email Address</label>
+										<div class="input-group">
+											<span class="input-group-addon"><span
+												class="glyphicon glyphicon-envelope"></span> </span> <input
+												type="email" class="form-control" id="email"
+												placeholder="Enter email" required="required" />
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="subject"> Branch</label> <select id="subject"
+											name="subject" class="form-control" pattern="[A-Za-z]{3}"
+											title="Enter UserName">
+											<option value="na" selected="">Choose One:</option>
+											<option value="cse">Department Of Computer Science
+												And Engineering</option>
+											<option value="me">Department Of Mechanical
+												Engineering</option>
+											<option value="cv">Department Of CVIL Engineering</option>
+											<option value="product">Department Of Electrical
+												engineering</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="name"> Message</label>
+										<textarea name="message" id="message" class="form-control"
+											rows="9" cols="25" required="required" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<button type="submit" class="btn btn-primary pull-right"
+										id="btnContactUs">Send Message</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-4" style="color: black">
+					<form>
+						<legend>
+							<span class="glyphicon glyphicon-globe"></span> Our office
+						</legend>
+						<address>
+							<strong> Hapur Road, Pilkhuwa, Uttar Pradesh 245304</strong><br>
+							<abbr title="Phone"> P:</abbr> 0122 232 1964
+						</address>
+						<address>
+							<strong>Email Us</strong><br> <a href="mailto:#"><span
+								class="text-danger">Harvanshrajput7@gmail.com</span></a>
+						</address>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="container footercolor">
+		<div class="row ">
+			<hr>
+			<div class="col-md-4 col-lg-4">
+
+				<a href="#">About RKGEC</a></br> <a href="http://aktu.ac.in/">APJAKTU
+					(UPTU)</a><br> <a href="http://www.aicte-india.org/">AICTE</a></br> <a
+					href="#">Mandatory Disclosure</a></br> <a href="#">e-Journals </a></br> <a
+					href="#">e-Books</a></br> <a href="#">Old Semester Questation Papers</a></br>
+				<a href="#">Patenting in India by Dr. Laxman Prasad</a></br> <a href="#">Machine
+					Design Notes and problem by </a></br> <a href="#">Prof. B. K. Gupta</a>
+			</div>
+			<div class="col-md-4 col-lg-4">
+				<a href="#">Anti Ranging</a> <a href="#">CRC</a> <a></a><br /> <a
+					href="#"> Placement Statistics</a><br /> <a href="#">Training
+					Partners </a><br /> <a href="#">RKGEC Media</a><br /> <a href="#">Jobs
+					@ RKGEC</a><br /> <a href="#">Alumni Speaks</a><br /> <a href="#">Fee
+					Structure</a><br /> <a href="#">ERP Login</a><br /> <a href="#"></a><br />
+
+
+			</div>
+			<div class=" col-md-4 col-lg-4">
+				<p>Raj Kumar Goel Engineering College</p>
+				<br>
+				<p>40th KM Stone, NH -24, Delhi - Hapur Road,</p>
+				<br>
+				<p>Pilkhuwa, Hapur (Formaly Ghaziabad) - 245304 (U.P.)</p>
+				<br>
+				<p>Contact No : 0122-2321964, 2324554, Fax : 0122-2324544</p>
+				<p>E-mail : contact@rkgec.edu.in</p>
+			</div>
+		</div>
+	</div>
+<div class="social-btns">
+			<a class="btn facebook"
+				href="https://www.facebook.com/rkgecOfficial/?fref=ts"
+				target="_blank"><i class="fa fa-facebook"></i></a> <a
+				class="btn twitter" href="https://twitter.com/rkgecofficial"
+				target="_blank"><i class="fa fa-twitter"></i></a> <a
+				class="btn google"
+				href="https://plus.google.com/u/0/108460470009003486856"
+				target="_blank"><i class="fa fa-google"></i></a> <a
+				class="btn instagram"
+				href="https://www.instagram.com/rkgecofficial/?hl=en"
+				target="_blank"><i class="fa fa-instagram"></i></a> <a
+				class="btn linkedin"
+				href="https://www.linkedin.com/school/15136344?pathWildcard=15136344"
+				target="_blank"><i class="fa fa-linkedin"></i></a> <a
+				class="btn youtube"
+				href="https://www.youtube.com/channel/UCw9qtBi9IC1hAUPht0y48Lg"
+				target="_blank"><i class="fa fa-youtube"></i></a> <a
+				class="btn whatsapp"><i class="fa fa-whatsapp">
+					+91-7055111205</i></a>
+		</div>
+
+
+	<footer>
+		<p>Designed & Developed by - HARVANSH & SHIVAM</p>
+			</footer>
+
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="bootstrap/js/vendor/jquery.min.js"><\/script>')
+	</script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="css/index.js"></script>
 	<script src="css/ie10-viewport-bug-workaround.js"></script>

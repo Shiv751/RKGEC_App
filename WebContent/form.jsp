@@ -8,7 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Login Page</title>
+<link rel="icon" type="image/png" href="image/fevicon.png"/>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+a:hover, a:active {
+	border-bottom: 3px solid red;
+	text-decoration: none;
+	color: blue;
+}
+</style>
 </head>
 <body>
 	<!-- Fixed top navbar with brand as logo image tags -->
@@ -28,9 +36,15 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="my">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Link</a></li>
-				<li><a href="#">Link</a></li>
-			</ul>
+
+					<li><a href="imagegallry.html">IMAGES</a></li>
+					<li><a href="company.html">PLACEMENT</a></li>
+					<li><a href="login.jsp">SIGN IN</a></li>
+			<li><a href="feculty.html">FACULTY</a></li>
+					<li><a href="#">LIFE@RKGEC</a></li>
+					<li><a href="#">DEPARTMENT</a></li>
+					<li><a href="#">ACTIVITIES</a></li>
+				</ul>
 		</div>
 		<!-- /.navbar-collapse -->
 	</div>
