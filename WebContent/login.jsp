@@ -109,7 +109,7 @@ a:hover, a:active {
 					<s:form action="HomeAction" method="post">
 			<div class="imgcontainer">
 			    <h1>Admin Login!</h1>
-				<img src="image/rkgeclogofull.png" alt="Avatar" class="avatar"
+				<img src="image/logoRkgec.png" alt="Avatar" class="avatar"
 					align="middle">
 			</div>
 				<label><b>Username</b></label> <input type="text"
