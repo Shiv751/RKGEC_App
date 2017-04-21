@@ -30,11 +30,7 @@ public class ForgetPasswordAction implements Action{
 	}
 	public void setConpassword(String conpassword) {
 		this.conpassword = conpassword;
-	}
-	@Override
-	public String execute() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	
 	}
 	public String forgetPassword() throws Exception {
 		loginDTO.setConfirmedpassword(this.getConpassword());
@@ -47,5 +43,10 @@ public class ForgetPasswordAction implements Action{
 			System.out.println("password not changed..There is some error updating your data...");
 			return ERROR;
 		}
+	}
+	@Override
+	public String execute() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

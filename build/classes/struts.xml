@@ -26,5 +26,12 @@
 			<result name="error">/ForgetpwdError.jsp</result>
 		</action>
 	</package>
+	
+	<package name="getStudent" extends="struts-default" namespace="/">
+		<action name="GetStudentAction" class="com.rkgec.actions.GetStudentAction">
+			<result name="success">/StudentInfo.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	</package>
 </struts>
 	      

@@ -45,9 +45,7 @@ public class RegistrationDAO {
 			}
 
 		} finally {
-			if (rs != null) {
-				rs.close();
-			}
+			
 			if (pstmt != null) {
 				pstmt.close();
 			}

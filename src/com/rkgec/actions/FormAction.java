@@ -1,7 +1,5 @@
 package com.rkgec.actions;
 
-import java.sql.SQLException;
-
 import com.opensymphony.xwork2.Action;
 import com.rkgec.website.DAO.RegistrationDAO;
 import com.rkgec.website.DTO.RegistrationDTO;

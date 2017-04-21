@@ -56,5 +56,6 @@ a:hover, a:active {
 	</nav>
 <h2>you are logged in!</h2>
 <h3>Welcome <s:property value="userid"/>!</h3>
+<s:property value="roll"/>
 </body>
 </html>

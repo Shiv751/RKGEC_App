@@ -104,12 +104,12 @@ a:hover, a:active {
 	</nav>
 
       
-			<h align="center"2></h2>
+			<h2 align="center"></h2>
 					<div class="container" style="background-color: #f1f1f1">
-					<s:form action="HomeAction" method="post">
+					<form action ="HomeAction" method="post">
 			<div class="imgcontainer">
 			    <h1>Admin Login!</h1>
-				<img src="image/logoRkgec.png" alt="Avatar" class="avatar"
+				<img src="image/logoOfRkgec.png" alt="Avatar" class="avatar"
 					align="middle">
 			</div>
 				<label><b>Username</b></label> <input type="text"
@@ -128,14 +128,7 @@ a:hover, a:active {
 					<a href="ChangePasswordForm.jsp">Forgot Password?</a>
 				</p>
 			</div>
-	
-
-	<!-- <div class="container" style="background-color: #f1f1f1"> -->
-	<!-- <button type="button" class="cancelbtn">Cancel</button> -->
-
-
-	<!-- </div> -->
-	</s:form>
+	</form>
 	</div>
 
 	</div>
