@@ -9,9 +9,10 @@
 </head>
 <body>
 <form action="GetStudentAction" method="post" >
-Student Roll no: <input type="text" name="roll"><br>
-<input type="submit" value="Confirm">
-<input type="reset" value="Clear">
+<tr>
+<th>Student Roll no: <input type="text" name="roll" placeholder="Enter roll no.." required="required"></th></tr><br>
+<tr><input type="submit" value="Confirm"></tr>
+<tr><input type="reset" value="Clear"></tr>
 </form>
 </body>
 </html>

@@ -6,19 +6,20 @@ import com.rkgec.website.DAO.GetStudentDAO;
 import com.rkgec.website.DTO.GetStudentDTO;
 
 public class GetStudentAction implements Action{
+	private GetStudentDTO getStudentDTO=new GetStudentDTO();
+	private GetStudentDAO getStudentDAO=new GetStudentDAO();
 	
-private long roll;
+private String roll;
 
-private GetStudentDTO getStudentDTO=new GetStudentDTO();
-private GetStudentDAO getStudentDAO=new GetStudentDAO();
 
-	public long getRoll() {
+	public String getRoll() {
 		return roll;
 	}
 
-	public void setRoll(long roll) {
+	public void setRoll(String roll) {
 		this.roll = roll;
 	}
+	
 
 	@Override
 	public String execute() throws Exception {
